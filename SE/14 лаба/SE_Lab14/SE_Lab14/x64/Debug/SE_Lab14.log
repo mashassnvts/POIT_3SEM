@@ -1,0 +1,29 @@
+﻿Сборка начата 02.09.2023 13:48:25.
+Уровень детализации журнала: Normal.     1>Проект "D:\3 семестр\КПО\14 лаба\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\SE_Lab14.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Error.cpp In.cpp Log.cpp Parm.cpp SE_Lab14.cpp
+         Error.cpp
+         In.cpp
+         Log.cpp
+         Parm.cpp
+     1>D:\3 семестр\КПО\14 лаба\SE_Lab14\SE_Lab14\Parm.h(19,25): error C2061: синтаксическая ошибка: идентификатор "_TCHAR"
+         SE_Lab14.cpp
+     1>D:\3 семестр\КПО\14 лаба\SE_Lab14\SE_Lab14\Parm.h(19,25): error C2061: синтаксическая ошибка: идентификатор "_TCHAR"
+     1>D:\3 семестр\КПО\14 лаба\SE_Lab14\SE_Lab14\SE_Lab14.cpp(11,22): error C2061: синтаксическая ошибка: идентификатор "_TCHAR"
+         Создание кода...
+     1>Сборка проекта "D:\3 семестр\КПО\14 лаба\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\3 семестр\КПО\14 лаба\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\3 семестр\КПО\14 лаба\SE_Lab14\SE_Lab14\Parm.h(19,25): error C2061: синтаксическая ошибка: идентификатор "_TCHAR"
+         D:\3 семестр\КПО\14 лаба\SE_Lab14\SE_Lab14\Parm.h(19,25): error C2061: синтаксическая ошибка: идентификатор "_TCHAR"
+         D:\3 семестр\КПО\14 лаба\SE_Lab14\SE_Lab14\SE_Lab14.cpp(11,22): error C2061: синтаксическая ошибка: идентификатор "_TCHAR"
+
+    Предупреждений: 0
+    Ошибок: 3
+
+Прошло времени 00:00:02.12

@@ -1,0 +1,81 @@
+Microsoft (R) Macro Assembler (x64) Version 14.37.32825.0   11/27/23 21:44:16
+asm4.asm						     Page 1 - 1
+
+
+				.586P
+asm4.asm(1) : error A2008:syntax error : .
+				.MODEL FLAT, STDCALL
+asm4.asm(2) : error A2008:syntax error : .
+				includelib kernel32.lib
+
+				ExitProcess PROTO : DWORD
+				MessageBoxA PROTO : DWORD, : DWORD, : DWORD, : DWORD
+
+				.STACK 4096
+asm4.asm(8) : error A2008:syntax error : .
+
+ 00000000			.CONST
+
+ 00000000			.DATA
+
+ = 00000000			MB_OK	EQU 0
+ 00000000 CF F0 EE E3 F0	STR1	DB "Программа", 0
+	   E0 EC EC E0 00
+ 0000000A 00000000		HW		DD ?
+ 0000000E FFC80D33		LONGF	SDWORD -3666637
+ 00000012 F5			BYTEF	DB 245
+ 00000013 74 68 69 73 20	STRF	DB "this is a string wow", 0
+	   69 73 20 61 20
+	   73 74 72 69 6E
+	   67 20 77 6F 77
+	   00
+
+ 00000000			.CODE
+
+ 00000000			main PROC
+
+ 00000000			START: 
+					INVOKE MessageBoxA, HW, OFFSET STRF, OFFSET STR1, MB_OK
+asm4.asm(26) : error A2008:syntax error : MessageBoxA
+ 00000000  6A 00			push 0
+ 00000002  E8 00000000 E		call ExitProcess
+ 00000007			main ENDP
+				end main
+asm4.asm(30) : error A2008:syntax error : main
+asm4.asm(30) : error A2088:END directive required at end of file
+Microsoft (R) Macro Assembler (x64) Version 14.37.32825.0   11/27/23 21:44:16
+asm4.asm						     Symbols 2 - 1
+
+
+
+
+Segments:
+
+                N a m e                  Length   Align   Class
+
+CONST  . . . . . . . . . . . . .	 00000000 16	  'CONST'	 ReadOnly
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P 	 00000000 Length= 00000000 External
+MessageBoxA  . . . . . . . . . .	P 	 00000000 Length= 00000000 External
+main . . . . . . . . . . . . . .	P 	 00000000 _TEXT	Length= 00000007 Public
+  START  . . . . . . . . . . . .	L 	 00000000 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+BYTEF  . . . . . . . . . . . . .	Byte	 00000012 _DATA	
+HW . . . . . . . . . . . . . . .	DWord	 0000000A _DATA	
+LONGF  . . . . . . . . . . . . .	DWord	 0000000E _DATA	
+MB_OK  . . . . . . . . . . . . .	Number	 00000000h   
+STR1 . . . . . . . . . . . . . .	Byte	 00000000 _DATA	
+STRF . . . . . . . . . . . . . .	Byte	 00000013 _DATA	
+
+	   0 Warnings
+	   6 Errors

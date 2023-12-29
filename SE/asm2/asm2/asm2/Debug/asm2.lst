@@ -1,0 +1,91 @@
+Microsoft (R) Macro Assembler Version 14.37.32825.0	    11/11/23 12:38:03
+asm2.asm						     Page 1 - 1
+
+
+				.586                      
+				.MODEL flat, stdcall      
+				includelib kernel32.lib   
+
+				ExitProcess PROTO : DWORD
+				MessageBoxA PROTO: DWORD, :DWORD, :DWORD, :DWORD
+
+				.stack 4096
+
+ 00000000			.CONST
+
+ 00000000			.DATA
+ = 00000000			MB_OK EQU 0
+ 00000000 D1 CB CE C6 C5	STR1 DB "СЛОЖЕНИЕ ДВУХ ЧИСЕЛ",0
+	   CD C8 C5 20 C4
+	   C2 D3 D5 20 D7
+	   C8 D1 C5 CB 00
+ 00000014 D0 C5 C7 D3 CB	STR2 DB "РЕЗУЛЬТАТ СЛОЖЕНИЯ = ", 0
+	   DC D2 C0 D2 20
+	   D1 CB CE C6 C5
+	   CD C8 DF 20 3D
+	   20 00
+ 0000002A 00000000		HW DD ?
+
+ 00000000			.CODE
+
+ 00000000			main PROC
+ 00000000			START:
+ 00000000  66| B8 0002		     MOV ax,2 ;перемещает значение 2 в регистр ax
+ 00000004  66| 83 C0 07		     ADD ax,7 ;прибавляет значение 7 к регистру ax
+ 00000008  66| 83 C0 30		     ADD ax,30h;прибавляет значение 30h (48 в десятичной системе) к регистру ax
+ 0000000C  BB 00000015		     MOV ebx, LENGTHOF STR2-1;перемещает длину строки STR2 минус 1 в регистр ebx
+ 00000011  88 83 00000014 R	     MOV [STR2 + ebx], al;сохраняет значение регистра al в памяти по адресу STR2 + ebx
+
+				     INVOKE MessageBoxA, HW, OFFSET STR2, OFFSET STR1, MB_OK
+ 0000002E  6A 00		     push 0
+ 00000030  E8 00000000 E	     call ExitProcess
+
+ 00000035			main ENDP
+				end main
+Microsoft (R) Macro Assembler Version 14.37.32825.0	    11/11/23 12:38:03
+asm2.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 00000000 Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 0000002E Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 00000035 Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+MessageBoxA  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000035 Public STDCALL
+  START  . . . . . . . . . . . .	L Near	 00000000 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+HW . . . . . . . . . . . . . . .	DWord	 0000002A _DATA	
+MB_OK  . . . . . . . . . . . . .	Number	 00000000h   
+STR1 . . . . . . . . . . . . . .	Byte	 00000000 _DATA	
+STR2 . . . . . . . . . . . . . .	Byte	 00000014 _DATA	
+
+	   0 Warnings
+	   0 Errors

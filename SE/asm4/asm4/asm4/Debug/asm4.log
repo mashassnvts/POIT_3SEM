@@ -1,0 +1,24 @@
+﻿Сборка начата 27.11.2023 21:57:12.
+Уровень детализации журнала: Normal.     1>Проект "D:\3 sem\SE\asm4\asm4\asm4\asm4.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "Debug\asm4.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\asm4.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\asm4.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling asm4.asm...
+         cmd.exe /C "C:\Users\maria\AppData\Local\Temp\tmp6adf8cc6e9814f49b2811c6ffb89127f.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\asm4.obj" /W3 /errorReport:prompt  /Taasm4.asm
+       Link:
+         D:\Professional\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\3 sem\SE\asm4\asm4\Debug\asm4.exe" /INCREMENTAL /ILK:"Debug\asm4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\3 sem\SE\asm4\asm4\Debug\asm4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\3 sem\SE\asm4\asm4\Debug\asm4.lib" /MACHINE:X86 Debug\asm4.obj
+         asm4.vcxproj -> D:\3 sem\SE\asm4\asm4\Debug\asm4.exe
+       FinalizeBuildStatus:
+         Файл "Debug\asm4.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\asm4.tlog\asm4.lastbuildstate".
+     1>Сборка проекта "D:\3 sem\SE\asm4\asm4\asm4\asm4.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.25
