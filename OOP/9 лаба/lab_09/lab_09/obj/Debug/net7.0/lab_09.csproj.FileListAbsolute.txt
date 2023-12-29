@@ -1,0 +1,14 @@
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\bin\Debug\net7.0\lab_09.exe
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\bin\Debug\net7.0\lab_09.deps.json
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\bin\Debug\net7.0\lab_09.runtimeconfig.json
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\bin\Debug\net7.0\lab_09.dll
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\bin\Debug\net7.0\lab_09.pdb
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\obj\Debug\net7.0\lab_09.GeneratedMSBuildEditorConfig.editorconfig
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\obj\Debug\net7.0\lab_09.AssemblyInfoInputs.cache
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\obj\Debug\net7.0\lab_09.AssemblyInfo.cs
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\obj\Debug\net7.0\lab_09.csproj.CoreCompileInputs.cache
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\obj\Debug\net7.0\lab_09.dll
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\obj\Debug\net7.0\refint\lab_09.dll
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\obj\Debug\net7.0\lab_09.pdb
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\obj\Debug\net7.0\lab_09.genruntimeconfig.cache
+D:\3 семестр\OOP\9 лаба\lab_09\lab_09\obj\Debug\net7.0\ref\lab_09.dll
