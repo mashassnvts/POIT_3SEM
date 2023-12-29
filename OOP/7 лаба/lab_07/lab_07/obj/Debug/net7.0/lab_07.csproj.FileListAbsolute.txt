@@ -1,0 +1,4 @@
+D:\3 семестр\OOP\7 лаба\lab_07\lab_07\obj\Debug\net7.0\lab_07.GeneratedMSBuildEditorConfig.editorconfig
+D:\3 семестр\OOP\7 лаба\lab_07\lab_07\obj\Debug\net7.0\lab_07.AssemblyInfoInputs.cache
+D:\3 семестр\OOP\7 лаба\lab_07\lab_07\obj\Debug\net7.0\lab_07.AssemblyInfo.cs
+D:\3 семестр\OOP\7 лаба\lab_07\lab_07\obj\Debug\net7.0\lab_07.csproj.CoreCompileInputs.cache

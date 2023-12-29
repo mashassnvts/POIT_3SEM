@@ -1,0 +1,5 @@
+D:\3 семестр\OOP\Lab11\Lab11\obj\Debug\net5.0\Lab11.csproj.AssemblyReference.cache
+D:\3 семестр\OOP\Lab11\Lab11\obj\Debug\net5.0\Lab11.GeneratedMSBuildEditorConfig.editorconfig
+D:\3 семестр\OOP\Lab11\Lab11\obj\Debug\net5.0\Lab11.AssemblyInfoInputs.cache
+D:\3 семестр\OOP\Lab11\Lab11\obj\Debug\net5.0\Lab11.AssemblyInfo.cs
+D:\3 семестр\OOP\Lab11\Lab11\obj\Debug\net5.0\Lab11.csproj.CoreCompileInputs.cache

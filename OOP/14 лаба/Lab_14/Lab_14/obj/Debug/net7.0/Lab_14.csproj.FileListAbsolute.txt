@@ -1,0 +1,14 @@
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\bin\Debug\net7.0\Lab_14.exe
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\bin\Debug\net7.0\Lab_14.deps.json
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\bin\Debug\net7.0\Lab_14.runtimeconfig.json
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\bin\Debug\net7.0\Lab_14.dll
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\bin\Debug\net7.0\Lab_14.pdb
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\obj\Debug\net7.0\Lab_14.GeneratedMSBuildEditorConfig.editorconfig
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\obj\Debug\net7.0\Lab_14.AssemblyInfoInputs.cache
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\obj\Debug\net7.0\Lab_14.AssemblyInfo.cs
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\obj\Debug\net7.0\Lab_14.csproj.CoreCompileInputs.cache
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\obj\Debug\net7.0\Lab_14.dll
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\obj\Debug\net7.0\refint\Lab_14.dll
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\obj\Debug\net7.0\Lab_14.pdb
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\obj\Debug\net7.0\Lab_14.genruntimeconfig.cache
+D:\3 семестр\OOP\14 лаба\Lab_14\Lab_14\obj\Debug\net7.0\ref\Lab_14.dll
