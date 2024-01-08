@@ -1,0 +1,24 @@
+﻿Сборка начата 14.11.2023 11:40:58.
+Уровень детализации журнала: Normal.     1>Проект "D:\3 семестр\SE\asm2\asm2\asm2.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\asm2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\asm2.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling asm2.asm...
+         cmd.exe /C "C:\Users\maria\AppData\Local\Temp\tmp6bd6d802290a454cbe7349ac965c1d5b.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\asm2.obj" /W3 /errorReport:prompt  /Taasm2.asm
+     1>asm2.asm(17): error A2008: syntax error : c
+     1>D:\Professional\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\asm2.obj" /W3 /errorReport:prompt  /Taasm2.asm" с кодом "1".
+     1>Сборка проекта "D:\3 семестр\SE\asm2\asm2\asm2.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\3 семестр\SE\asm2\asm2\asm2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         asm2.asm(17): error A2008: syntax error : c
+         D:\Professional\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\asm2.obj" /W3 /errorReport:prompt  /Taasm2.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.55

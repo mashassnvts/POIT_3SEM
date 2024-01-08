@@ -1,0 +1,33 @@
+﻿Сборка начата 27.10.2023 21:09:33.
+Уровень детализации журнала: Normal.     1>Проект "D:\3 семестр\SE\asm1\SE_Asm01\SE_Asm01\SE_Asm01.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\SE_Asm01.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling asm01.asm...
+         cmd.exe /C "C:\Users\maria\AppData\Local\Temp\tmp3cc172e9365a49fd9824fb9326f19590.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm01.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /Taasm01.asm
+     1>asm01.asm(1): error A2008: syntax error : .
+     1>asm01.asm(3): error A2008: syntax error : .
+     1>asm01.asm(10): error A2008: syntax error : .
+     1>asm01.asm(26): error A2008: syntax error : MessageBoxA
+     1>asm01.asm(32): error A2008: syntax error : main
+     1>asm01.asm(32): error A2088: END directive required at end of file
+     1>D:\Professional\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm01.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /Taasm01.asm" с кодом "1".
+     1>Сборка проекта "D:\3 семестр\SE\asm1\SE_Asm01\SE_Asm01\SE_Asm01.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\3 семестр\SE\asm1\SE_Asm01\SE_Asm01\SE_Asm01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         asm01.asm(1): error A2008: syntax error : .
+         asm01.asm(3): error A2008: syntax error : .
+         asm01.asm(10): error A2008: syntax error : .
+         asm01.asm(26): error A2008: syntax error : MessageBoxA
+         asm01.asm(32): error A2008: syntax error : main
+         asm01.asm(32): error A2088: END directive required at end of file
+         D:\Professional\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm01.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /Taasm01.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 7
+
+Прошло времени 00:00:00.45

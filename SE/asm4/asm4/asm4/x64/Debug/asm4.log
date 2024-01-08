@@ -1,0 +1,33 @@
+﻿Сборка начата 27.11.2023 21:44:15.
+Уровень детализации журнала: Normal.     1>Проект "D:\3 sem\SE\asm4\asm4\asm4\asm4.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\asm4.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling asm4.asm...
+         cmd.exe /C "C:\Users\maria\AppData\Local\Temp\tmp219d97b6d8ed42dca493a287c0ac06db.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm4.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /Taasm4.asm
+     1>asm4.asm(1): error A2008: syntax error : .
+     1>asm4.asm(2): error A2008: syntax error : .
+     1>asm4.asm(8): error A2008: syntax error : .
+     1>asm4.asm(26): error A2008: syntax error : MessageBoxA
+     1>asm4.asm(30): error A2008: syntax error : main
+     1>asm4.asm(30): error A2088: END directive required at end of file
+     1>D:\Professional\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm4.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /Taasm4.asm" с кодом "1".
+     1>Сборка проекта "D:\3 sem\SE\asm4\asm4\asm4\asm4.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\3 sem\SE\asm4\asm4\asm4\asm4.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         asm4.asm(1): error A2008: syntax error : .
+         asm4.asm(2): error A2008: syntax error : .
+         asm4.asm(8): error A2008: syntax error : .
+         asm4.asm(26): error A2008: syntax error : MessageBoxA
+         asm4.asm(30): error A2008: syntax error : main
+         asm4.asm(30): error A2088: END directive required at end of file
+         D:\Professional\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm4.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /Taasm4.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 7
+
+Прошло времени 00:00:00.64

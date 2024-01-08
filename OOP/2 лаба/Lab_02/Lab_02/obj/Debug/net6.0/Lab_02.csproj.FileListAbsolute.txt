@@ -1,0 +1,14 @@
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\obj\Debug\net6.0\Lab_02.GeneratedMSBuildEditorConfig.editorconfig
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\obj\Debug\net6.0\Lab_02.AssemblyInfoInputs.cache
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\obj\Debug\net6.0\Lab_02.AssemblyInfo.cs
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\obj\Debug\net6.0\Lab_02.csproj.CoreCompileInputs.cache
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\bin\Debug\net6.0\Lab_02.exe
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\bin\Debug\net6.0\Lab_02.deps.json
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\bin\Debug\net6.0\Lab_02.runtimeconfig.json
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\bin\Debug\net6.0\Lab_02.dll
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\bin\Debug\net6.0\Lab_02.pdb
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\obj\Debug\net6.0\Lab_02.dll
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\obj\Debug\net6.0\refint\Lab_02.dll
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\obj\Debug\net6.0\Lab_02.pdb
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\obj\Debug\net6.0\Lab_02.genruntimeconfig.cache
+D:\3 семестр\ООП\2 лаба\Lab_02\Lab_02\obj\Debug\net6.0\ref\Lab_02.dll
